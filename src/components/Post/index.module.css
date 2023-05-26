@@ -1,0 +1,82 @@
+.card {
+    background-color: var(--gray-800);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 45px;
+    /* faz com que os elementos só vão ocupar o tamanho do container. esconde tudo que sai do container */
+}
+
+.container {
+    display: flex;
+
+}
+
+.cover {
+    width: 100%;
+    height: 72px;
+    object-fit: cover;
+    /* corta pedaços da imagens mas não distorce */
+}
+
+.profile {
+    flex: 0 1 1;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.profile strong,
+span {
+    display: block;
+    margin-top: 3px;
+    font-family: 'Roboto';
+}
+
+.time {
+    display: flex;
+    margin-top: 3px;
+    margin-left: auto;
+}
+
+.text {
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    line-height: 40px;
+}
+
+.hashtag {
+    color: #00B37E;
+    font-family: 'Roboto';
+}
+
+.line {
+    color: #323238;
+    border: 1px solid #323238;
+}
+
+.form {
+    line-height: 50px;
+    font-family: 'Roboto';
+}
+
+.area {
+    background: #121214;
+    border: 1px solid #00B37E;
+    border-radius: 8px;
+    width: 100%;
+    height: 96px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.button {
+    background: #00875F;
+    border-radius: 8px;
+    width: 108px;
+    height: 49px;
+    color: white;
+    font-family: 'Roboto';
+}
