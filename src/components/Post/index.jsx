@@ -30,7 +30,7 @@ export function Post() {
       <form className={styles.form}>
         <span>Deixe seu feedback</span>
         <textarea className={styles.area} />
-        <button className={styles.button} type="submit">Publicar</button>
+        <button className={styles.button} type="button">Publicar</button>
       </form>
 
     </div>
